@@ -1,0 +1,56 @@
+* {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about,
+.mandv,
+.profile,
+.contact {
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: black;
+    border-top: solid 10px aqua;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+header {
+    text-align: center;
+    font-size: 2em;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    float: left;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+span {
+    font-weight: bold;
+    font-size: 2em;
+}

@@ -1,0 +1,74 @@
+* {
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('integritiy_logo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    font-family: 'Acme', sans-serif;
+    font-size: 3em;
+}
+
+.container {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    opacity: 0.7;
+    font-size: 1.1em;
+}
+
+.about,
+.mandv {
+    float: left;
+    text-align: center;
+}
+
+.about {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+}
+
+.mandv {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 10, 255);
+}
+
+.contact,
+.profile {
+    float: left;
+    text-align: center;
+}
+
+.contact {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(0, 255, 0);
+}
+
+.profile {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(253, 27, 27);
+}
+
+.top {
+    height: 50%;
+}
+
+.bottom {
+    height: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-top: 50%;
+}
